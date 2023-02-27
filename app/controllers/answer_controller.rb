@@ -1,5 +1,5 @@
-class QuestionController < ApplicationController
-  def ask()
+class AnswerController < ApplicationController
+  def answer
     @params = params[:ask]
     @coach_answer = ''
     if @params
